@@ -7,7 +7,16 @@
   margin: auto;
 }
 h1 {text-align: center;}
-
+a {
+  text-decoration: none;
+  color: darkgreen;
+  <!-- background-color: yellow; -->
+  <!-- font-weight: bold; -->
+}
+th, td {
+  padding: 5px;
+  vertical-align: top;
+}
 </style>
 
 <div class="content">
@@ -62,40 +71,103 @@ h1 {text-align: center;}
 
 <h2>Publications</h2>
 
-<p>2024 OOPSLA, Multris: Functional Verification of Multiparty Message Passing in Separation Logic <a href="./papers/2024_oopsla_multris.pdf">[pdf]</a></p>
-<p>2024 POPL, Trillium: Higher-Order Concurrent and Distributed Separation Logic for Intensional Refinement <a href="./papers/2024_popl_trillium.pdf">[pdf]</a></p>
-<p>2024 POPL, Deadlock-Free Separation Logic: Linearity Yields Progress for
-Dependent Higher-Order Message Passing <a href="./papers/2024_popl_linear_actris.pdf">[pdf]</a></p>
-<p>2023 ICFP, Verifying Reliable Network Components in a Distributed Separation Logic with Dependent Separation Protocols <a href="./papers/reliable_communication_icfp23.pdf">[pdf]</a></p>
-<p>2023 ICFP, Dependent Session Protocols in Separation Logic from First Principles (Functional Pearl) <a href="./papers/miniactris_icfp23.pdf">[pdf]</a></p>
-<p>2022 LMCS, Actris 2.0: Asynchronous Session-Type Based reasoning in Separation Logic <a href="./papers/actris_lmcs.pdf">[pdf]</a></p>
-<p>2021 CPP, Machine-Checked Semantic Session Typing <font color="darkred">[Distinguished Paper Award]</font> <a href="./papers/semantic_session_typing_cpp.pdf">[pdf]</a></p>
-<p>2020 POPL, Actris: Session-Type Based reasoning in Separation Logic <a href="./papers/actris_popl.pdf">[pdf]</a></p>
-
-<h2>Manuscripts</h2>
-
-<p>Verifying Liveness Properties of Distributed Systems via Trace Refinement in Higher-Order Concurrent Separation Logic <a href="./papers/fairneris_manuscript.pdf">[pdf]</a></p>
+<table style="width:100%">
+  <tr>
+    <td>OOPSLA'24</td>
+    <td>
+      <a href="./papers/2024_oopsla_multris.pdf">
+	Multris: Functional Verification of Multiparty Message Passing in Separation Logic</a>
+      <br>
+      <u>Jonas Kastberg Hinrichsen</u>, Jules Jacobs, Robbert Krebbers <br>
+    </td>
+  </tr>
+  <tr>
+    <td>POPL'24</td>
+    <td>
+      <a href="./papers/2024_popl_trillium.pdf">
+	Trillium: Higher-Order Concurrent and Distributed Separation Logic for Intensional Refinement</a>
+      <br>
+      Amin Timany, Simon Oddershede Gregersen, Leo Stefanesco, <u>Jonas Kastberg Hinrichsen</u>, Leon Gondelman, Abel Nieto, Lars Birkedal <br>
+    </td>
+  </tr>
+  <tr>
+    <td>POPL'24</td>
+    <td>
+      <a href="./papers/2024_popl_linear_actris.pdf">
+	Deadlock-Free Separation Logic: Linearity Yields Progress for
+Dependent Higher-Order Message Passing</a>
+      <br>
+      Jules Jacobs, <u>Jonas Kastberg Hinrichsen</u>, Robbert Krebbers <br>
+    </td>
+  </tr>
+  <tr>
+    <td>ICFP'23</td>
+    <td>
+      <a href="./papers/reliable_communication_icfp23.pdf">
+	Verifying Reliable Network Components in a Distributed Separation Logic with Dependent Separation Protocols</a>
+      <br>
+      Leon Gondelman, <u>Jonas Kastberg Hinrichsen</u>, Mario Pereira, Amin Timany, Lars Birkedal </br>
+    </td>
+  </tr>
+  <tr>
+    <td>ICFP'23</td>
+    <td>
+      <a href="./papers/miniactris_icfp23.pdf">
+	Dependent Session Protocols in Separation Logic from First Principles (Functional Pearl)</a>
+      <br>
+      Jules Jacobs, <u>Jonas Kastberg Hinrichsen</u>, Robbert Krebbers <br>
+    </td>
+  </tr>
+  <tr>
+    <td>LMCS'2022</td>
+    <td>
+      <a href="./papers/actris_lmcs.pdf">
+	Actris 2.0: Asynchronous Session-Type Based reasoning in Separation Logic</a>
+      <br>
+      <u>Jonas Kastberg Hinrichsen</u>, Jesper Bengtson, Robbert Krebbers <br>
+    </td>
+  </tr>
+  <tr>
+    <td>CPP'21</td>
+    <td>
+      <a href="./papers/semantic_session_typing_cpp.pdf">
+	Machine-Checked Semantic Session Typing <font color="darkred">[Distinguished Paper Award]</font></a>
+      <br>
+      <u>Jonas Kastberg Hinrichsen</u>, Daniel Louwrink, Robbert Krebbers, Jesper Bengtson <br>
+    </td>
+  </tr>
+  <tr>
+    <td>POPL'20</td>
+    <td>
+      <a href="./papers/actris_popl.pdf">
+	Actris: Session-Type Based reasoning in Separation Logic
+      </a>
+      <br>
+      <u>Jonas Kastberg Hinrichsen</u>, Jesper Bengtson, Robbert Krebbers <br>
+    </td>
+  </tr>
+</table>
 
 <h2>PhD Dissertation</h2>
 
-<p>Sessions and Separation <a href="./papers/thesis.pdf">[pdf]</a></p>
+<p><a href="./papers/thesis.pdf"> Sessions and Separation </a></p>
 
-<h2>Talks</h2>
-<p>2025, February 25, Aalborg University, Invited talk [<a href="./talks/25-02-25_aau.pdf">Slides</a>]</p>
-<p>2024, December 3, IT University of Copenhagen, Seminar [<a href="./talks/24-06-04_iris_workshop.pdf">Slides</a>]</p>
+<h2>Selected Talks</h2>
+<p>2025, February 25, Aalborg University, Seminar [<a href="./talks/25-02-25_aau.pdf">Slides</a>]</p>
+<!-- <p>2024, December 3, IT University of Copenhagen, Seminar [<a href="./talks/24-06-04_iris_workshop.pdf">Slides</a>]</p> -->
 <p>2024, June 03, Iris Workshop <font color="darkred">[Invited talk]</font> [<a href="./talks/24-06-04_iris_workshop.pdf">Slides</a>]</p>
-<p>2024, May 14, Uppsala University [<a href="./talks/24-05-14_uppsala.pdf">Slides</a>]</p>
-<p>2024, March 18, Aarhus University, Seminar [<a href="./talks/24-03-18_aarhus.pdf">Slides</a>]</p>
+<p>2024, May 14, Uppsala University, Seminar [<a href="./talks/24-05-14_uppsala.pdf">Slides</a>]</p>
+<!-- <p>2024, March 18, Aarhus University, Seminar [<a href="./talks/24-03-18_aarhus.pdf">Slides</a>]</p> -->
 <p>2024, January 31, Dagstuhl Seminar [<a href="./talks/24-01-31_dagstuhl.v">Coq Demo</a>]</p>
 <p>2023, September 07, ICFP Conference [<a href="./talks/23-09-07_icfp.pdf">Slides</a>]</p>
 <p>2023, May 23, Iris Workshop [<a href="./talks/23-05-23_iris_workshop.pdf">Slides</a>]</p>
-<p>2023, March 03, Aarhus University, Iris Seminar [<a href="./talks/23-03-03_iris_seminar.pdf">Slides</a>]</p>
+<!-- <p>2023, March 03, Aarhus University, Iris Seminar [<a href="./talks/23-03-03_iris_seminar.pdf">Slides</a>]</p> -->
 <p>2022, October 24, Aarhus University, Seminar [<a href="./talks/22-10-24_aarhus.pdf">Slides</a>]</p>
 <p>2022, May 02, Iris Workshop [<a href="./talks/22-02-05_iris_workshop.pdf">Slides</a>]</p>
-<p>2021, November 22, Aarhus University, Seminar [<a href="./talks/21-11-22_aarhus.pdf">Slides</a>]</p>
+<!-- <p>2021, November 22, Aarhus University, Seminar [<a href="./talks/21-11-22_aarhus.pdf">Slides</a>]</p> -->
 <p>2021, June 11, Ph.D. Defense [<a href="./talks/21-06-11_defense.pdf">Slides</a>]</p>
 <p>2021, January 18, CPP Conference (short version) [<a href="./talks/21-01-18_cpp_short.pdf">Slides</a>] [<a href="https://www.youtube.com/watch?v=bvm9v5Whv6c">Recording</a>] (long version) [<a href="./talks/21-01-18_cpp_long.pdf">Slides</a>] [<a href="https://www.youtube.com/watch?v=z0ggx3SuGYc">Recording</a>]</p>
-<p>2020, November 30, Aarhus University, Seminar [<a href="./talks/20-11-30_aarhus.pdf">Slides</a>]</p>
+<!-- <p>2020, November 30, Aarhus University, Seminar [<a href="./talks/20-11-30_aarhus.pdf">Slides</a>]</p> -->
 <p>2020, November 18, Radboud University, Seminar [<a href="./talks/20-11-18_radboud.pdf">Slides</a>]</p>
 <p>2020, October 20, IT University of Copenhagen, Seminar [<a href="./talks/20-10-20_itu.pdf">Slides</a>]</p>
 <p>2020, June 04, VEST workshop [<a href="./talks/20-06-04_vest.pdf">Slides</a>]</p>
